@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Theme.ToolBar.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColorPrimary">#000</item>
+    </style>
+
+    <!--Alerter-->
+    <style name="AlertStyle" parent="@android:style/Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/alerter_alert_min_height</item>
+        <item name="android:maxHeight">@dimen/alerter_alert_max_height</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">top</item>
+        <item name="android:paddingTop">@dimen/alerter_alert_padding</item>
+    </style>
+
+    <style name="AlertTextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AlertTextAppearance.Title">
+        <item name="android:textSize">@dimen/alerter_text_medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AlertTextAppearance.Text">
+        <item name="android:textSize">@dimen/alerter_text_small</item>
+    </style>
+</resources>

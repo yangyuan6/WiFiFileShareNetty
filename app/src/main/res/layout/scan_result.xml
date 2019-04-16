@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/v1"
+                android:layout_weight="1"
+                android:padding="10dp"/>
+
+        <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/v2"
+                android:layout_weight="1"
+                android:padding="10dp"/>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/v3"
+                android:layout_weight="1"
+                android:padding="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/v4"
+                android:layout_weight="1"
+                android:padding="10dp"/>
+        <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <com.yangyuan.wififileshareNio.UI.UIUtils.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/iv_photo"
+                    android:src="@mipmap/head_portrait_1"
+                    android:scaleType="centerCrop"
+                    app:border_width="1dp"
+                    app:border_color="#FFFFFFFF"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+
+        <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/v6"
+                android:layout_weight="1"
+                android:padding="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/v7"
+                android:layout_weight="1"
+                android:padding="10dp"/>
+
+        <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/v8"
+                android:layout_weight="1"
+                android:padding="10dp"/>
+
+        <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/v9"
+                android:layout_weight="1"
+                android:padding="10dp"/>
+    </LinearLayout>
+</LinearLayout>

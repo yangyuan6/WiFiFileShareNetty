@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">趣分享(Netty)</string>
+    <string name="my_send">分         享</string>
+    <string name="my_receive">发          现</string>
+    <string name="inviteFriends">＋蓝牙分享给好友</string>
+    <string name="historyDis">传输历史</string>
+    <string name="setting">个人设置</string>
+    <string name="cancle">取消</string>
+    <string name="save">保存</string>
+    <string name="nameIgnoreWaring">名称不能为空</string>
+    <string name="initing">正在初始化</string>
+    <string name="choseRevicer">选择分享者</string>
+    <string name="linking">正在连接 %s</string>
+    <string name="scaning">正在努力扫描分享者......</string>
+    <string name="finish">完成</string>
+    <string name="downding">正在下载...</string>
+    <string name="reciving">正在接收...</string>
+    <string name="waiting">等待发现者连接</string>
+    <string name="apIniting">正在初始化，请稍等......</string>
+    <string name="apInitFinish">初始化完成，正在等待发现者连接</string>
+    <string name="apInitFail">初始化失败，请重试或重启程序</string>
+    <string name="pleaseChoseFile">选择要分享的文件</string>
+    <string name="hasChosed">已选(%d)</string>
+    <string name="downfiles">下载</string>
+    <string name="cancelshare">取消分享</string>
+    <string name="clearHistory">清空历史</string>
+    <string name="history">传输历史</string>
+    <string name="about">关于</string>
+
+    <string name="msg.alert_cleared">Alert Cleared</string>
+    <string name="msg.no_alert_showing">No Alert Showing</string>
+
+</resources>

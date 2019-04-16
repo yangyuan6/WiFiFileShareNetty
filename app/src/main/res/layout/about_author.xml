@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:background="@drawable/beautiful">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <LinearLayout android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:layout_width="match_parent"
+            android:text="趣分享"
+            android:textColor="#00FFFF"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:layout_marginBottom="70dp"
+            android:layout_height="wrap_content"/>
+        <LinearLayout android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView android:layout_width="match_parent"
+                android:layout_weight="2"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"/>
+            <TextView android:layout_width="117dp"
+                android:text="当前版本"
+                android:textSize="20dp"
+                android:layout_marginLeft="50dp"
+                android:textColor="#00FFFF"
+                android:gravity="center"
+                android:layout_height="wrap_content"/>
+            <TextView android:layout_width="96dp"
+                android:textSize="20dp"
+                android:text="1.1"
+                android:id="@+id/vision"
+                android:textColor="#00FFFF"
+                android:layout_height="wrap_content"/>
+            <TextView android:layout_width="match_parent"
+                android:layout_weight="2"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="120dp"/>
+        <TextView android:layout_width="match_parent"
+            android:text="作者"
+            android:textSize="20dp"
+            android:textColor="#00FFFF"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"/>
+        <TextView android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:textColor="#00FFFF"
+            android:gravity="center"
+            android:text="杨远"
+            android:id="@+id/www_set"
+            android:clickable="true"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>

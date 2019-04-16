@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#04dddd"
+        toolbar:popupTheme="@style/Theme.ToolBar.Base">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/title"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_name" />
+    </android.support.v7.widget.Toolbar>
+    <include
+        layout="@layout/home_above"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="14"/>
+    <FrameLayout
+        android:layout_weight="6"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <include
+            android:layout_gravity="center"
+            layout="@layout/home_blow"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="3dp">
+        </include>
+    </FrameLayout>
+</LinearLayout>

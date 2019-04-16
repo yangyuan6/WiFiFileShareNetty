@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.yangyuan.wififileshareNio"
+        minSdkVersion 17
+        targetSdkVersion 22
+        versionCode 2
+        versionName "1.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        jackOptions{
+            enabled true
+        }
+    }
+    compileOptions{
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    testCompile 'junit:junit:4.12'
+    compile files('src/main/java/lib/gson-2.3.1.jar')
+    compile files('src/main/java/lib/litepal-1.2.0-src.jar')
+    /*compile files('src/main/java/lib/android-support-v4.jar')*/
+    compile files('src/main/java/lib/universal-image-loader-1.9.3-with-sources.jar')
+    compile project(':FileSelector')
+    compile files('src/main/java/lib/netty-all-4.1.15.Final.jar')
+}
